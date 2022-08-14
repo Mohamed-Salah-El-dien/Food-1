@@ -1,0 +1,55 @@
+.menu .slide .title {
+  padding: 1rem;
+  font-size: 3rem;
+  color: var(--orange);
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.menu .slide .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding-bottom: 4rem;
+}
+
+.menu .slide .box-container .box {
+  flex: 1 1 41rem;
+  background: var(--orange);
+  padding: 2rem;
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.menu .slide .box-container .box h3 {
+  font-size: 2.5rem;
+  color: var(--yellow);
+  padding-bottom: 0.5rem;
+}
+
+.menu .slide .box-container .box p {
+  font-size: 1.6rem;
+  color: var(--white);
+  line-height: 2;
+}
+
+.menu .slide .box-container .box .price {
+  font-size: 2.5rem;
+  color: var(--yellow);
+}
+
+.menu .slide .box-container .box:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .menu .slide .box-container .box {
+    flex-flow: column;
+    text-align: center;
+  }
+}

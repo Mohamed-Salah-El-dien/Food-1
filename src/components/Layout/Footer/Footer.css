@@ -1,0 +1,58 @@
+.footer {
+  text-align: center;
+  background: var(--white);
+}
+
+.footer .icons-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 2rem;
+}
+
+.footer .icons-container .icons {
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.footer .icons-container .icons .i {
+  height: 3rem;
+  width: 3rem;
+  padding: 1.5rem;
+  border-radius: 50%;
+  background: var(--orange);
+  color: var(--yellow);
+  margin-bottom: 0.5rem;
+  line-height: 5.8rem;
+  font-size: 2rem;
+}
+
+.footer .icons-container .icons h3 {
+  font-size: 2rem;
+  color: var(--black);
+  padding: 1rem 0;
+}
+
+.footer .icons-container .icons p {
+  line-height: 1.5;
+  font-size: 1.7rem;
+  color: var(--light-black);
+  text-transform: none;
+}
+
+.footer .share {
+  margin: 2rem 0;
+}
+
+.footer .share .a {
+  height: 6rem;
+  width: 6rem;
+  line-height: 5.8rem;
+  color: var(--orange);
+  background: var(--black);
+  margin: 0 0.3rem;
+  font-size: 2.5rem;
+}
+
+.footer .share .a:hover {
+  color: var(--yellow);
+}
